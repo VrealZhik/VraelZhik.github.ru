@@ -1,0 +1,70 @@
+.top_catalog {
+    height: 400px;
+    background-image: url(img/catalog/top-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading_catalog {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-top: 127px;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    margin-bottom: 41px;
+}
+
+.bar_link {
+    display: flex;
+    align-items: center;
+}
+
+.bar_text_box:not(:last-child):after {
+    content: '/';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bar_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.select_catalog {
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    width: 288px;
+    height: 41px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding-left: 14px;
+    padding-right: 14px;
+    appearance: none;
+    background-image: url(img/catalog/Polygon\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: right .7em top 50%, 0 0;
+}
